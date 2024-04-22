@@ -5,5 +5,6 @@ function solution(strings, n) {
     }
     return a[n].localeCompare(b[n]);
   });
+
   return strings;
 }
